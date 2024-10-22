@@ -8,16 +8,15 @@ Este repositorio contiene dos scripts: uno para instalar **AutoFirma** y otro pa
 - Ubuntu 20.04 o superior.
 - Certificado FNMT en formato `.p12` o `.pfx`.
 
-## 1. Instalación de AutoFirma
 
-### Pasos
-
-#### 1. Clona este repositorio:
+## Clonar repositorio
 
 ```bash
 git clone https://github.com/diverso-lab/autofirma-ubuntu
 cd autofirma-ubuntu
 ```
+
+## Instalación de Autofirma
 
 Ejecuta el script de instalación de AutoFirma:
 
@@ -26,7 +25,7 @@ chmod +x install_autofirma.sh
 ./install_autofirma.sh
 ```
 
-#### 2. Instalación del Certificado FNMT
+## Instalación del Certificado FNMT
 
 Asegúrate de tener el archivo `.p12` o `.pfx` de tu certificado FNMT disponible.
 
